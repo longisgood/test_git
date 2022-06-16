@@ -1,0 +1,62 @@
+12345
+
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ pwd
+/c/Users/KTE001/Desktop/WorkSpace/git
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ dir
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ ls
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ ls
+test.txt
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ ls -l -a
+total 5
+drwxr-xr-x 1 KTE001 197121 0 Jun 16 09:40 ./
+drwxr-xr-x 1 KTE001 197121 0 Jun 16 09:36 ../
+-rw-r--r-- 1 KTE001 197121 5 Jun 16 09:41 test.txt
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ ls -a
+./  ../  test.txt
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ ls -al
+total 5
+drwxr-xr-x 1 KTE001 197121 0 Jun 16 09:40 ./
+drwxr-xr-x 1 KTE001 197121 0 Jun 16 09:36 ../
+-rw-r--r-- 1 KTE001 197121 5 Jun 16 09:41 test.txt
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ ls -alS
+total 5
+-rw-r--r-- 1 KTE001 197121 5 Jun 16 09:41 test.txt
+drwxr-xr-x 1 KTE001 197121 0 Jun 16 09:40 ./
+drwxr-xr-x 1 KTE001 197121 0 Jun 16 09:36 ../
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ ls -a1h
+./
+../
+test.txt
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ ls -alh
+total 5.0K
+drwxr-xr-x 1 KTE001 197121 0 Jun 16 09:40 ./
+drwxr-xr-x 1 KTE001 197121 0 Jun 16 09:36 ../
+-rw-r--r-- 1 KTE001 197121 5 Jun 16 09:41 test.txt
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$ ls -al%
+ls: unknown option -- %
+Try 'ls --help' for more information.
+
+KTE001@DESKTOP-KNER0P6 MINGW64 ~/Desktop/WorkSpace/git
+$
